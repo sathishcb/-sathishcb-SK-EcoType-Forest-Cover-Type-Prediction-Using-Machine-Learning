@@ -88,7 +88,7 @@ A Streamlit web application was developed for single-instance prediction using m
 
 Run the app:
 streamlit run app.py
-  
+ 		 
 ## 📁 Project Structure
 Eco_Type_Forest_Prediction/
 │
