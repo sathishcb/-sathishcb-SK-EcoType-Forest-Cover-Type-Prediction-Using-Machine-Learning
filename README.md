@@ -116,6 +116,88 @@ Eco_Type_Forest_Prediction/
 ├── requirements.txt
 └── README.md
 ```
+## ▶️ How to Run the Project
+
+Follow the steps below to run the project locally.
+
+---
+
+### 1️⃣ Clone the Repository
+```bash
+git clone <your-github-repo-link>
+cd Eco_Type_Forest_Prediction
+```
+
+---
+
+### 2️⃣ Create and Activate Virtual Environment
+
+**Windows**
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+**Mac / Linux**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+### 3️⃣ Install Required Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 4️⃣ Run Model Training (One-Time)
+
+This step trains the final model and saves it as `.pkl` files.
+
+```bash
+python main.py
+```
+
+✔ This will generate:
+- `forest_cover_model.pkl`
+- `selected_features.pkl`
+- `label_encoder.pkl`
+
+---
+
+### 5️⃣ Run the Streamlit Application
+```bash
+streamlit run app.py
+```
+
+The application will open in your browser and allow you to:
+- Enter feature values manually
+- Predict the forest cover type
+
+---
+
+### 6️⃣ (Optional) View Analysis Notebooks
+EDA and model comparison can be viewed using Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Open:
+- `notebooks/EDA_Forest_Cover.ipynb`
+- `notebooks/Model_Comparison.ipynb`
+
+---
+
+## ✅ Notes
+- Ensure Python 3.8+ is installed
+- Model training is done only once
+- Streamlit app uses the saved model for prediction
+
+
 
 ## 🏁 Conclusion
 EcoType demonstrates a complete end-to-end machine learning pipeline—from data analysis and model comparison to deployment—providing a practical solution for forest cover type prediction.
