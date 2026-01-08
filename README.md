@@ -88,8 +88,10 @@ A Streamlit web application was developed for single-instance prediction using m
 
 Run the app:
 streamlit run app.py
- 		 
+			
 ## 📁 Project Structure
+
+```text
 Eco_Type_Forest_Prediction/
 │
 ├── data/
@@ -113,6 +115,7 @@ Eco_Type_Forest_Prediction/
 ├── label_encoder.pkl
 ├── requirements.txt
 └── README.md
+```
 
 ## 🏁 Conclusion
 EcoType demonstrates a complete end-to-end machine learning pipeline—from data analysis and model comparison to deployment—providing a practical solution for forest cover type prediction.
